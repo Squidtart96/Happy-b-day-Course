@@ -1,0 +1,112 @@
+@font-face {
+  font-family: HappyMonkey;
+  src: url("Images/HappyMonkey-Regular.ttf");
+}
+body {
+  text-align: center;
+  font-family: HappyMonkey;
+  background: linear-gradient(purple, blue);
+  color: #ffffff;
+  text-shadow: 0 0 1px black;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#image {
+  width: 150px;
+  border-radius: 90px;
+  border: 6px solid #efb0c9;
+}
+#age {
+  background: #efb0c9;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+}
+
+#date {
+  background: #efb0c9;
+  padding: 6px 12px;
+}
+.gift-image {
+  width: 350px;
+  height: 325px;
+  background-image: url("Images/whitepresent.png");
+  background-size: cover;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.gift-image:hover {
+  background-image: url("Images/narutothumbsup.gif");
+}
+.gift-section {
+  margin-top: 50px;
+}
+.gift-image2 {
+  width: 350px;
+  height: 325px;
+  background-image: url("Images/whitepresent.png");
+  background-size: cover;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.gift-image2:hover {
+  background-image: url("Images/flatteredgirl.webp");
+}
+.header4 {
+  margin-top: 40px;
+}
+.giftimage3 {
+  width: 350px;
+  height: 325px;
+  background-image: url("Images/whitepresent.png");
+  background-size: cover;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.giftimage3:hover {
+  background-image: url("Images/homerbrain.gif");
+}
+span {
+  text-decoration: underline white solid 2px;
+}
+.giftimage4 {
+  width: 350px;
+  height: 325px;
+  background-image: url("Images/whitepresent.png");
+  background-size: cover;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.giftimage4:hover {
+  width: 400px;
+  background-image: url("Images/BadassHero.gif");
+}
+.giftimage5 {
+  width: 350px;
+  height: 325px;
+  background-image: url("Images/Goldenpresent.jpg");
+  background-size: cover;
+  border: 6px solid gold;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.giftimage5:hover {
+  width: 600px;
+  background-image: url("Images/Martinicheers.gif");
+}
+#footer {
+  width: 400px;
+  margin: 40px auto 20px;
+  font-style: italic;
+}
+a {
+  color: white;
+  text-decoration: underline solid 2px white;
+}
